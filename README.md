@@ -2,7 +2,7 @@
 
 (From [Wikipedia](https://en.wikipedia.org/wiki/Halma)) Halma is a strategy board game invented in 1883 or 1884 by George Howard Monks, a US thoracic surgeon at Harvard Medical School. His inspiration was the English game Hoppity which was devised in 1854. The gameboard is checkered and divided into 16×16 squares. Pieces may be small checkers or counters, or wooden or plastic cones or men resembling small chess pawns. Piece colors are typically black and white for two-player games, and various colors or other distinction in games for four players. The game is played by two or four players seated at opposing corners of the board. The game is won by being first to transfer all of one's pieces from one's own camp into the camp in the opposing corner. For four-player games played in teams, the winner is the first team to race both sets of pieces into opposing camps. On each turn, a player either moves a single piece to an adjacent open square, or jumps over one or more pieces in sequence.
 
-![Image from Wiki]()
+![Image from Wiki](https://github.com/pranavmswamy/halma/blob/master/200px-Halma_2_jugadores.svg.png)
 
 ## Adversarial Search
 
@@ -13,7 +13,7 @@ and games often go to 50 moves by each player, so the search tree has about 35^1
 
 The most common way to search adversarially is using the Minimax Algorithm, which can be enhanced with Alpha-Beta Pruning.
 
-![Image of Halma]()
+![Image of Halma](https://github.com/pranavmswamy/halma/blob/master/1200px-Halma_game_2.svg.png)
 
 ## Mimimax Algorithm
 
@@ -28,7 +28,7 @@ The two-parameter can be defined as:
   Beta: The best (lowest-value) choice we have found so far at any point along the path of Minimizer. The initial value of beta is +∞.
 The Alpha-beta pruning to a standard minimax algorithm returns the same move as the standard algorithm does, but it removes all the nodes which are not really affecting the final decision but making algorithm slow. Hence by pruning these nodes, it makes the algorithm fast.
 
-![Image of Alpha Beta Pruning]()
+![Image of Alpha Beta Pruning](https://github.com/pranavmswamy/halma/blob/master/Screenshot%20from%202020-10-12%2021-43-09.png)
 
 ## Input
 
@@ -36,13 +36,13 @@ The input to the algorithm is:
 1) Game State - The current position of all the pawns in the board.
 2) The current player.
 
-![Image of input]()
+![Image of input](https://github.com/pranavmswamy/halma/blob/master/Screenshot%20from%202020-10-12%2021-53-13.png)
 
 ## Output
 
 The output of the algorithm is the next best sequence of valid moves for the current pawn that is to be moved.
 
-![Image of Output]()
+![Image of Output](https://github.com/pranavmswamy/halma/blob/master/Screenshot%20from%202020-10-12%2021-53-35.png)
 
 
 ## Improvements
