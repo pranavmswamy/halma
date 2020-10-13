@@ -44,6 +44,13 @@ The output of the algorithm is the next best sequence of valid moves for the cur
 
 ![Image of Output](https://github.com/pranavmswamy/halma/blob/master/images/Screenshot%20from%202020-10-12%2021-53-35.png)
 
+- Jump from position (14, 12) to (12, 12)
+- Then jump from (12, 12) to (10, 14)
+- Then jump from (10, 14) to (10, 12)
+- Then jump from (10, 12) to (8, 12)
+
+## Test Results
+- Beat 82% of other 700+ Halma AI agents during a competition held at USC in Fall 2019 in the Foundations of Artificial Intelligence class. (CSCI-561)
 
 ## Improvements
 - Working on developing an end-to-end web app using Angular and Flask (Python) for the AI to play against itself.
